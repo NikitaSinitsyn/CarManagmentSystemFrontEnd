@@ -1,0 +1,56 @@
+html, body {
+    background-color: #161718; 
+  }
+  
+  .sort-container {
+    position: relative;
+  }
+  
+  .sort-button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .sort-button.active {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .sort-menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .sort-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sort-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sort-menu li:hover {
+    background-color: #f2f2f2;
+  }
